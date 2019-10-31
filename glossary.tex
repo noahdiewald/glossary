@@ -1,0 +1,181 @@
+\newabbreviation{wp}{WP}{Word and Paradigm}
+\newabbreviation{cg}{CG}{categorial grammar}
+\newabbreviation{ccg}{CCG}{Combinatory Categorial Grammar}
+\newabbreviation{lcg}{LCG}{Linear Categorial Grammar}
+\newabbreviation{coc}{CC}{Calculus of Inductive Constructions}
+\newabbreviation{hol}{HOL}{Higher Order Logic}
+\newabbreviation{stc}{MWXM}{MWXM}
+\newabbreviation{ibm}{IBM}{Information-Based Morphology}
+\newabbreviation{pfm}{PFM}{Paradigm Function Morphology}
+\newabbreviation{plt}{PLT}{Paradigm Linking Theory}
+\newabbreviation{ia}{IA}{Item and Arrangement}
+\newabbreviation{ip}{IP}{Item and Process}
+\newabbreviation{nm}{NM}{Network Morphology}
+\newabbreviation{dm}{DM}{Distributed Morphology}
+\newabbreviation{hpsg}{HPSG}{Head Driven Phrase Structure Grammar}
+\newabbreviation{hsm}{HSM}{hierarchical finite-state machine}
+
+\newglossaryentry{allomorphy}{name={allomorphy}, description={%
+    The general term given to the phenomenon where two lexemes are in
+    overlapping syntactic distributions but exhibit complementary
+    distributed phonological characteristics in some of their forms.}}
+
+\newglossaryentry{inflectionclass}{name={inflection class},
+  description={%
+    Traditionally, these correspond to conjugations or declensions.}}
+
+\newglossaryentry{separationist}{name={separationist}, description={%
+    A theory of morphology that involves multiple layers of
+    paradigms.}}
+
+\newglossaryentry{stem}{name={stem}, description={%
+    A stem is any form which can serve as the input to a morphological
+    process.}}
+
+\newglossaryentry{realizational}{name={realizational},
+  description={%
+    A theory of morphology that seeks to find correspondences between
+    morphological forms and morphosyntactic features.}}
+
+\newglossaryentry{morph}{name={morph}, description={%
+    A morph is a phonological unit.}}
+
+\newglossaryentry{tectogrammar}{name={tectogrammar}, description={%
+    to be added}}
+
+\newglossaryentry{phenogrammar}{name={phenogrammar}, description={%
+    to be added}}
+
+\newglossaryentry{constructivist}{name={constructivist}, description={%
+    to be added}}
+
+\newglossaryentry{abstractivist}{name={abstractivist}, description={%
+    to be added}}
+
+\newglossaryentry{exponence}{name={exponence}, description={%
+    to be added}}
+
+\newglossaryentry{lexeme}{name={lexeme}, description={%
+    A lexeme is an atomic term used as a key to morphomic classes in
+    morphomi entries and a unique semantic contribution to a pattern
+    in a sign paradigm entry.}}
+
+\newglossaryentry{morphomicparadigm}{name={morphomic paradigm},
+  description={%
+    A morphomic paradigm is a subset of morphomic entries such that
+    for a given lexeme all the morphomic entries contain that
+    lexeme. $\exists x:Lexem\forall y:MEntry.\pi_2 y = x$}}
+
+\newglossaryentry{morphomicentry}{name={morphomic entry},
+  plural={morphomic entries},
+  description={%
+    A morphomic entry is a triple of a morphome, a lexeme and a
+    morphopheno term.
+    $MEntry =_{def} Morphome\times Lexeme\times MPheno$}}
+
+\newglossaryentry{morphomehierarchy}{name={morphome hierarchy},
+  plural={morphome hierarchies},
+  description={%
+    A morphome hierarchy is a order over morphomes. The order is
+    stipulated axiomatically.}}
+    
+\newglossaryentry{morphome}{name={morphome}, description={%
+    A morphome is a category of morphs and larger forms composed of
+    morphs. Each morph has a morphome category and each composition of
+    a morph with a morph has a morphome category. Morphomes may also
+    categorize groups of other morphomes according to the morphome
+    hierarchy. A morphome is represented as a set of morphome
+    names. $Morphome =_{def} Ensemble MName$\footnote{I am borrowing
+      the Coq Standard Library name for a set-like type so as not to
+      confuse it with Set, the predicative type universe.}}}
+
+\newglossaryentry{morphomename}{name={morphome name}, description={%
+    A morphome name is an element of a morphome and serves to
+    designate and distinguish one morphome from another.}}
+
+\newglossaryentry{signparadigm}{name={sign paradigm}, description={}}
+
+\newglossaryentry{sign}{name={sign}, description={}}
+
+\newglossaryentry{formclass}{name={form class}, plural={form classes},
+  description={}}
+
+\newglossaryentry{formform}{name={redesignation}, description={}}
+
+\newglossaryentry{formsign}{name={signification}, description={}}
+
+\newglossaryentry{fentry}{name={designation}, description={}}
+
+\newglossaryentry{formparadigm}{name={form-paradigm}, description={}}
+
+\newglossaryentry{classhierarchy}{name={class hierarchy}, description={}}
+
+\newglossaryentry{pch}{name={state class hierarchy}, description={%
+    A state class hierarchy is an order on states.}}
+
+\newglossaryentry{mentrys}{name={morphological entry set}, description={%
+    A morphological entry set contains the base entries and any
+    morphological entries that are the result of subsequent
+    inflectional processes on morphological entries.}}
+
+\newglossaryentry{gfp}{name={A valid morphological entry set},
+  description={%
+    A valid morphological entry set is a morphological entry set
+    subject to the condition that any lexeme-form pair must be
+    unique.}}
+
+\newglossaryentry{lmp}{name={form paradigm},
+  description={%
+    A lexeme's morphological paradigm are the morphological entries
+    that share a lexeme.}}
+
+\newglossaryentry{lsp}{name={entry paradigm},
+  description={%
+    A lexeme's syntactic paradigm are all the lexical entries that are
+    the output of any proto-lexical mapping functions that take the
+    lexeme's morphological paradigm entries as input.}}
+    
+\newglossaryentry{mentry}{name={morphological entry},
+  plural={morphological entries}, description={%
+    A morphological entry is a triple of a morphological state, lexeme
+    and form.}}
+
+\newglossaryentry{lentry}{name={lexical entry}, plural={lexical
+    entries}, description={...}}
+    
+\newglossaryentry{mpheno}{name={morpho-pheno}, description={...}}
+
+\newglossaryentry{basee}{name={basic entry}, description={%
+    A basic entry is a form paradigm entry that is not the result of
+    an inflectional process.}}
+
+\newglossaryentry{form}{name={form}, description={%
+    A form is a phonological representation that together with a
+    lexeme and state form an entry in a form paradigm.}}
+
+\newglossaryentry{stemm}{name={stem}, description={%
+    A form belonging to a morphological paradigm entry to which some
+    inflectional process applies is a stem.}}
+
+\newglossaryentry{basef}{name={basic form}, description={%
+    A form belonging to a basic entry. If it is also a stem, it is a
+    basic stem.}}
+
+\newglossaryentry{bases}{name={basic stem}, description={%
+    A basic form that is also a stem.}}
+
+\newglossaryentry{free}{name={free stem}, description={%
+    A form which is also a morphological word is called a free stem.}}
+
+\newglossaryentry{bound}{name={bound stem}, description={%
+    A stem which is not also a morphological word is called a bound
+    stem.}}
+
+\newglossaryentry{mword}{name={morphological word}, description={%
+    A form which is directly related to the pheno of some lexical
+    entry is a morphological word.}}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../morphology"
+%%% End:
